@@ -33,16 +33,12 @@ class Stack:
         self.size -= 1
         return remove.value
 
-
-
-
 class Solution(object):
     def isValid(self, s):
         """
         :type s: str
         :rtype: bool
         """
-
 
         stack = Stack()
 
