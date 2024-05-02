@@ -5,7 +5,7 @@ class Solution:
             if i == len(bank) - 1:
                 break
             ones_above = bank[i].count("1")
-            if int(ones_above) > 0: 
+            if int(ones_above): 
                 for j in range(i+1, len(bank)):
                     if "1" in bank[j]:
                         beams += ones_above * int(bank[j].count("1"))
